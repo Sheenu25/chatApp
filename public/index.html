@@ -29,13 +29,12 @@
             name="username"
             id="username"
             placeholder="Enter username..."
-            required
             ng-model="details.username"
           />
         </div>
         <div class="form-control">
           <label for="room">Room</label>
-          <select name="room" id="room" ng-model="details.room">
+          <select name="room" id="room" ng-model="details.room" required>
             <option value="JavaScript" selected>JavaScript</option>
             <option value="Python">Python</option>
             <option value="PHP">PHP</option>
